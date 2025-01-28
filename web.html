@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Vídeos ROMARSAL</title>
+  <style>
+    /* Estilos generales */
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    /* Banner */
+    .banner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #6200ea;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    .banner img {
+      height: 80px;
+      margin: 0 20px;
+    }
+
+    .banner h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    .banner h2 {
+      font-size: 1.2rem;
+      margin: 10px 0 0;
+    }
+
+    .banner a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* Galería de listas de reproducción */
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .playlist {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      width: 300px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .playlist:hover {
+      transform: translateY(-10px);
+    }
+
+    .playlist iframe {
+      width: 100%;
+      height: 200px;
+      border: none;
+    }
+
+    .playlist button {
+      background-color: #6200ea;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      margin: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background-color 0.3s ease;
+    }
+
+    .playlist button:hover {
+      background-color: #3700b3;
+    }
+
+    /* Formulario */
+    .form-container {
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .form-container input,
+    .form-container textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    .form-container button {
+      background-color: #6200ea;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      width: 100%;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background-color 0.3s ease;
+    }
+
+    .form-container button:hover {
+      background-color: #3700b3;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #6200ea;
+      color: #fff;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Banner -->
+  <div class="banner">
+    <img src="https://yt3.googleusercontent.com/qg2LyJtow2Wby_vKsiwGUOg6KPlzMBH9BOu-bHt5eQ4D8cUUqL-rGCpPr8JlLaW2gKGJc3pClQE=s160-c-k-c0x00ffffff-no-rj" alt="Logo">
+    <div>
+      <h1>CATÁLOGO DE VÍDEOS ROMARSAL</h1>
+      <h2>Anímate a visitar mi canal con el siguiente enlace: <a href="https://www.youtube.com/@DJROMARSAL-qd9br" target="_blank">https://www.youtube.com/@DJROMARSAL-qd9br</a></h2>
+    </div>
+    <img src="https://yt3.googleusercontent.com/qg2LyJtow2Wby_vKsiwGUOg6KPlzMBH9BOu-bHt5eQ4D8cUUqL-rGCpPr8JlLaW2gKGJc3pClQE=s160-c-k-c0x00ffffff-no-rj" alt="Logo">
+  </div>
+
+  <!-- Galería de listas de reproducción -->
+  <div class="gallery">
+    <div class="playlist">
+      <iframe src="https://www.youtube.com/embed/videoseries?list=PL25ms-hGxwnOh_eeb0402APxECuqxz6dn" allowfullscreen></iframe>
+      <button onclick="window.open('https://www.youtube.com/playlist?list=PL25ms-hGxwnOh_eeb0402APxECuqxz6dn', '_blank')">Ver lista de reproducción</button>
+    </div>
+    <div class="playlist">
+      <iframe src="https://www.youtube.com/embed/videoseries?list=PL25ms-hGxwnMLr8tTgg28fBOH8Mn55hS5" allowfullscreen></iframe>
+      <button onclick="window.open('https://www.youtube.com/playlist?list=PL25ms-hGxwnMLr8tTgg28fBOH8Mn55hS5', '_blank')">Ver lista de reproducción</button>
+    </div>
+    <div class="playlist">
+      <iframe src="https://www.youtube.com/embed/videoseries?list=PL25ms-hGxwnOp8szyGZqI-1UW7-IjMUvc" allowfullscreen></iframe>
+      <button onclick="window.open('https://www.youtube.com/playlist?list=PL25ms-hGxwnOp8szyGZqI-1UW7-IjMUvc', '_blank')">Ver lista de reproducción</button>
+    </div>
+  </div>
+
+  <!-- Formulario de contacto -->
+  <div class="form-container">
+    <h2>Contacto</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Nombre" required>
+      <input type="email" id="email" placeholder="Correo electrónico" required>
+      <textarea id="message" rows="5" placeholder="Mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 ROMARSAL. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Script para el formulario -->
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      alert('Gracias por tu mensaje. Nos pondremos en contacto contigo pronto.');
+      document.getElementById('contactForm').reset();
+    });
+  </script>
+</body>
+</html>
